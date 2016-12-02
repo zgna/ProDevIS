@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: Student
+  User: Galia
   Date: 01.12.2016
   Time: 21:33
   To change this template use File | Settings | File Templates.
@@ -17,12 +17,12 @@
     <title>Регистрация</title>
 
     <link rel="stylesheet" href="<c:url value="/resources/css/style.css"/>">
-    <link rel="stylesheet" href="<c:url value="/resources/css/form-register.css" />">
+    <link rel="stylesheet" href="<c:url value="/resources/css/form-registration.css" />">
 </head>
 <body>
 <div class="main-content">
 
-    <!-- Форма регистрации form-register.css -->
+    <!-- Форма регистрации form-registration.css -->
 
     <form class="form-register" method="POST" action="/registration">
 
