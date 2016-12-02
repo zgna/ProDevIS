@@ -16,6 +16,13 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    // JSP tag library
     compile group: 'jstl', name: 'jstl', version: '1.2'
+
+    // Servlet API library
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+
+    // MD5 encoding library
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
 }
